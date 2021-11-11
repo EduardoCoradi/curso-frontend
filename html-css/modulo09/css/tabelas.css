@@ -6,42 +6,40 @@ table {
 	background: #ffffff;
 	width: 100%;
 	border-collapse: collapse;
-	
-}
-thead th, thead td {
-	border: 1px solid;
-	font-weight: bold;
-}
-thead th {
-	background-color: #12E0D2
+
 }
 
-table tr td{
-	border: 1px solid;
+table tr {
+	border: 1px solid #757575;
 }
 
-table tbody tr:nth-child(odd) {
-	background-color: #12E0D2;
+table tbody tr:nth-child(even) {
+	background-color: #EEEEFF;
 }
 
-table tbody tr td:hover {background-color: rgba(0, 0, 0, .5);
+table tbody tr:hover {
+	background-color: rgba(0, 0, 255, .2);
 }
 
 table th,
 table td {
-	padding: 0.8rem;
+	padding: 1rem;
 	font-size: 1.6rem;
 	text-align: right;
+	/*border: 1px solid #757575;*/
 	vertical-align: middle;
 }
 
 table tr td:first-child {
 	text-align: left;
 	font-weight: bold;
-	border: solid 1px
 }
 
 table th {
+	background-color: #234589;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
 }
 
 .table-container {
@@ -49,6 +47,9 @@ table th {
 }
 
 .table-container h3 {
+	font-size: 1.8rem;
+	font-style: normal;
+	margin-bottom: 1rem;
 }
 
 .table-container tfoot {

@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
+	
+<head>
 		<title>HTML - Listas e Links</title>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/newstyle.css">
+		<title>Listas e Links</title>
 	</head>
 	<body>
-		<h1>Listas e Links</h1>
+		<header>
+			<h1>Listas e Links</h1>
+		</header>
 
-		<h2 id="lista-nao-ordenada">Lista não ordenada</h2>
-		
-		<ul>
+		<section>
+			<h2 id="lista-nao-ordenada">Lista não ordenada</h2>
+			<ul>
 			<li>
 				Brasil
 				<ul>
 					<li>São Paulo
-						<ol>
-							<li>São Paulo</li>
-						</ol>
+						<ul>
+							<li class="capitais">São Paulo</li>
+						</ul>
 					</li>
 					<li>Rio de Janeiro</li>
 					<li>Minas Gerais</li>
@@ -25,13 +31,18 @@
 							<li>Belém</li>
 						</ul>
 					</li>
+			</li>		
+			</ul>
+				</li>
+				<li>Argentina</li>
+				<li>Uruguai</li>
+				<li>Paraguai</li>
 				</ul>
-			</li>
-			<li>Argentina</li>
-			<li>Uruguai</li>
-			<li>Paraguai</li>
-		</ul>
-
+				
+		</section>
+		
+		<div>		
+					
 		<h2>Lista ordenada</h2>
 
 		<ol>
@@ -40,8 +51,9 @@
 			<li>Santos</li>
 			<li>São Paulo</li>
 		</ol>
+		</div>
 
-		
+		<div id=segundadiv>
 		<h2>Lista de Definições</h2>		
 
 		<dl>
@@ -51,16 +63,22 @@
 			<dt>PC</dt>
 				<dd>USB, 19 polegadas, Core I5</dd>
 		</dl>
-
-		<h2>Links</h2>
+		</div>
 
 		<nav>
+		
 			<ul>
+				<li><a href="./minhahomepage.html">Home</a></li>
+				<li><a href="03-formatacao-de-texto.html">Formatação de Texto</a></li>
+				<li><a href="04-tabelas.html">Tabelas</a></li>
+				<li><a href="06-formularios.html">Formulários</a></li>
 				<li><a href="https://ebaconline.com.br">EBAC</a></li>
 				<li><a href="#top">Voltar ao topo</a> </li>
 				<li><a href="#lista-nao-ordenada">Ver a lista não ordenada</a></li>
 			</ul>
 		</nav>
+	
+		<footer>Desenvolvido por Eduardo</footer>	
 
 	</body>
 </html>

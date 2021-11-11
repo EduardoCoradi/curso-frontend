@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: Garamond, Helvetica, sans-serif;
+  background-color: #3f3f3f;  
+}
+
+form div{
+  margin: 10px 50% 10px 10px;
+  padding: 10px;
+  background: #3f3f3f;
+  border-left: 5px solid #f5f04a;
+  width: 95%;
+}
+  [type="text"], [type="email"], textarea, label {
+    width: 100%;
+    display: block;
+}
+
+label{
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #f5f04a;
+}
+
+a {
+  color: #Fa732d;
+}
+a:hover{
+  color: #Fa732d;
+  background-color: #f2f2f2;  
+}
+
+a:visited {
+  color: #f5f04a;
+}
+
+p{
+  font-size: 20px;
+  color: #f2f2f2;
+}
+h1 {
+  font-size: 2rem;
+  color: #Fa732d;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+header {
+  background-color: #3f3f3f;
+  padding: 20px;
+  text-align: left;
+  font-size: 35px;
+  color: #Fa732d;
+  margin-left: 30px;
+  border-bottom: solid 2px  #Fa732d;  
+}
+
+nav {
+  float: left;
+  width: 15%;
+  font-size: 20px;
+  background-color: transparent;
+  margin: 5px;
+  padding: 10px;
+}
+
+ul{
+  font-family: sans-serif; 
+  background-color: transparent;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+article {
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+  background-color: #f2f5f9;
+  margin: 0 auto;
+  border: solid 2px;
+  border-color: #Fa732d;
+  border-radius: 10%;
+}
+
+img {
+  border-radius: 50%;
+  float: inherit;
+}
+
+
+p, h2{
+  margin: 0 auto;
+  text-align: left;
+  color: #Fa732d;;
+}
+
+h3 {
+  text-align: center;
+  color: #Fa732d;
+}
+
+section {
+  height: 700px;
+  display: table;
+  background-color: #3f3f3f;
+  width: 100vw;
+  background-image: url(../images/fundo-estrelado.jpg);
+}
+
+footer {
+  background-color: #Fa732d;
+  padding: 5px;
+  text-align: center;
+  color: #f2f2f2;
+  height: 30px;
+  width: 100vw;
+}
+
+footer p {
+  color: #f2f2f2;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  nav, article{
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 425px) {
+  nav, article{
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+  }
+}
